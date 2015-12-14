@@ -12,6 +12,6 @@ func (c *Image) ToFloat() [][]float64 {
 		}
 		floats = append(floats, agg)
 	}
-	
+
 	return floats
 }
